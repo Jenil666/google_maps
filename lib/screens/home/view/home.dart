@@ -22,11 +22,11 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Future<void> permission()
   async {
-    var status = await Permission.location.status;
-    if(status.isDenied)
-      {
-        Permission.location.request();
-      }
+        Map<Permission,PermissionStatus> status = await [
+          Permission.location,
+          Permission.camera,
+          Permission.storage
+        ].request();
   }
   HomeController get = Get.put(HomeController());
   @override
@@ -35,6 +35,9 @@ class _HomeScreenState extends State<HomeScreen> {
       child: Scaffold(
         appBar: AppBar(
           title: Text("Location Finder"),
+          leading: IconButton(onPressed: () {
+            openAppSettings();
+          }, icon: Icon(Icons.settings,color: Colors.white,)),
         ),
         body: Obx(
           () => Center(
