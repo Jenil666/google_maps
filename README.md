@@ -21,10 +21,6 @@ https://user-images.githubusercontent.com/116253963/233072101-4b0285b6-b34f-47fa
 
 
 <p>
-![Screenshot_20230419-174004_samsung-galaxys20ultra-cosmicgrey-portrait]()
-![Screenshot_20230419-174031_samsung-galaxys20ultra-cosmicgrey-portrait]()
-![Screenshot_20230419-174037_samsung-galaxys20ultra-cosmicgrey-portrait]()
-
 <img src = "https://user-images.githubusercontent.com/116253963/233072442-85fabd43-1be7-4f8b-a0da-2a24fae6684a.png" height=20% width=20%>
 <img src = "https://user-images.githubusercontent.com/116253963/233072463-cfb393a7-f38c-422e-bc5f-cf56ea35099f.png" height=20% width=20%>
 <img src = "https://user-images.githubusercontent.com/116253963/233072480-946b84fe-1e08-4bfb-801f-f244102dc526.png" height=20% width=20%>
